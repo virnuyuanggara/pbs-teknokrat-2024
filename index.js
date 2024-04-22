@@ -4,7 +4,7 @@ const port = 3002;
 
 const bodyParser = require('body-parser');
 const db = require('./config.js')
-const response = require('./request.js')
+const response = require('./response.js')
 
 // Middleware for parsing JSON bodies
 app.use(bodyParser.json());
